@@ -1,0 +1,50 @@
+#include<stdio.h>
+int main()
+{int num,remainder,zerocount=0,onecount=0,twocount=0,threecount=0,fourcount=0,fivecount=0,sixcount=0,sevencount=0,eightcount=0,ninecount=0;
+printf("Enter the number : ");
+scanf("%d",&num);
+while(num!=0)
+{remainder=num%10;
+if(remainder==0)
+{zerocount++;
+}
+else if(remainder==1)
+{onecount++;
+}
+else if(remainder==2)
+{twocount++;
+}
+else if(remainder==3)
+{threecount++;
+}
+else if(remainder==4)
+{fourcount++;
+}
+else if(remainder==5)
+{fivecount++;
+}
+else if(remainder==6)
+{sixcount++;
+}
+else if(remainder==7)
+{sevencount++;
+}
+else if(remainder==8)
+{eightcount++;
+}
+else
+{ninecount++;
+}
+num=num/10;}
+printf("Frequency of 1 : %d",onecount);
+printf("\nFrequency of 2 : %d",twocount);
+printf("\nFrequency of 3 : %d",threecount);
+printf("\nFrequency of 4 : %d",fourcount);
+printf("\nFrequency of 5 : %d",fivecount);
+printf("\nFrequency of 6 : %d",sixcount);
+printf("\nFrequency of 7 : %d",sevencount);
+printf("\nFrequency of 8 : %d",eightcount);
+printf("\nFrequency of 9 : %d",ninecount);
+printf("\nFrequency of 0 : %d",zerocount);
+return 0;
+}
