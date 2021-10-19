@@ -1,4 +1,4 @@
-// Binary to Decimal conversions
+//Binary to Decimal conversions
 
 #include<stdio.h>
 #include<math.h>
