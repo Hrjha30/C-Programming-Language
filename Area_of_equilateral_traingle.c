@@ -1,4 +1,4 @@
-// Area of equilateral triangle
+//Area of equilateral triangle
 
 #include<stdio.h>
 #include<math.h>
