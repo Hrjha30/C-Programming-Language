@@ -1,4 +1,4 @@
-// To find the sum of first and last digit of a number
+//To find the sum of first and last digit of a number
 
 #include<stdio.h>
 int main()
