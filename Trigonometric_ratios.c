@@ -1,4 +1,4 @@
-// To find all the trigonometric ratios by taking the input in degrees from the user
+//To find all the trigonometric ratios by taking the input in degrees from the user
 
 #include<stdio.h>
 #include<math.h>
