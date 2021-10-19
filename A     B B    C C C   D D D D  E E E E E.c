@@ -8,7 +8,7 @@
 int main()
 {char ch='A';
 int i,j,row,k;
-printf("Enter the number of Rows : ");
+printf("\nEnter the number of Rows : ");
 scanf("%d",&row);
 for(i=1;i<=row;i++)
 {for(j=1;j<=row-i;j++)
