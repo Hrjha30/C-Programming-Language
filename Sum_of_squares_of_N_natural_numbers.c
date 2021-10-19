@@ -1,4 +1,4 @@
-// Sum of squares of N natural numbers
+//Sum of squares of N natural numbers
 
 #include<stdio.h>
 int main()
