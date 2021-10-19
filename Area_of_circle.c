@@ -1,4 +1,4 @@
-// Area of circle
+//Area of circle
 
 #include<stdio.h>
 int main()
