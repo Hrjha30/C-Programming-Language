@@ -1,4 +1,4 @@
-// C program to find power of a number using pow(inbuilt) function
+//C program to find power of a number using pow(inbuilt) function
 
 #include<stdio.h>
 #include<math.h>
