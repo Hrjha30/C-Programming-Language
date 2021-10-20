@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{char str[20]="Ram@123",str2[20];
+int d;
+lb : printf("Enter the password : ");
+scanf("%s",&str2);
+d=strcmpi(str,str2);
+if(d==0)
+{printf("correct password");
+}
+else
+{
+printf("incorrect password\n");
+goto lb;}
+return 0;
+}
