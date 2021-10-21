@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{char str[20],str2[20];
+int i=0;
+printf("Enter the string in lowercase : ");
+gets(str);
+while(str[i]!='\0')
+{if(str[i]!=' ')
+str2[i]=str[i]-32;
+else
+str2[i]=str[i];
+i++;}
+printf("In Uppercase : %s",str2);
+return 0;}
