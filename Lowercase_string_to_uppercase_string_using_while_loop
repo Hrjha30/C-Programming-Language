@@ -7,7 +7,7 @@ gets(str);
 while(str[i]!='\0')
 {if(str[i]!=' ')
 str2[i]=str[i]-32;
-else
+ else
 str2[i]=str[i];
 i++;}
 printf("In Uppercase : %s",str2);
