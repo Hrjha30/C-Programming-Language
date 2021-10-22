@@ -1,0 +1,17 @@
+// Count even and odd elements
+#include<stdio.h>
+int main()
+{int a[10],i,evencount=0,oddcount=0;
+printf("Enter the elements : ");
+for(i=0;i<10;i++)
+{scanf("%d",&a[i]);
+}
+for(i=0;i<10;i++)
+{if(a[i]%2==0)
+evencount++;
+else
+oddcount++;
+}
+printf("Number of even elements is : %d",evencount);
+printf("\nNumber of odd elemets is : %d ",oddcount);
+return 0;}
