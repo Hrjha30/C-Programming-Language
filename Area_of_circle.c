@@ -3,10 +3,10 @@
 #include<stdio.h>
 int main()
 {
-float radius, area;
+float r, a;
 printf("Enter the radius : ");
-scanf("%f",&radius);
-area=3.14*radius*radius;
-printf("Area is : %f",area);
+scanf("%f",&r);
+a=3.14*r*r;
+printf("Area is : %f",a);
 return 0;
 }
